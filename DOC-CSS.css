@@ -1,0 +1,181 @@
+ 
+.navbar {
+  background-color: #ffffff !important;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 3;
+  opacity: 0.95;
+}
+
+.presentation {
+  margin: 9%;
+}
+.presentation h2 {
+  margin: 2%;
+  font-size: 38px;
+  color: rgb(0, 179, 155);
+}
+.card {
+  border-radius: 3%;
+  overflow: hidden;
+  border-style: none;
+}
+.card-img {
+    /* margin-left: 40%; */
+    width: 85%;
+  }
+@media only screen and (min-width: 920px){
+    .card-img{
+        margin-left: 40%;
+    }
+}
+.card-body {
+  border: none;
+}
+#patient-card {
+  background: #00ccb1;
+}
+#doctor-card {
+  background: #3d83df;
+}
+.card-title {
+  color: #ffffff !important;
+}
+.text-muted {
+  color: #ffffff !important;
+}
+.drop-down-text {
+  color: black;
+}
+#drop-down {
+  display: flex;
+  align-items: center;
+  background-color: white;
+  height: 35px;
+}
+.local-culure {
+  display: flex;
+  margin-top: 4%;
+}
+.culture {
+  width: 60%;
+  color: rgb(0, 179, 155);
+}
+.links {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+}
+.link-item {
+  margin-right: 5%;
+  font-size: 23px;
+  text-decoration: none;
+}
+.link-item :hover {
+    text-decoration: none;
+    color: rgb(0, 179, 155);
+}
+.links a{
+    color: gray;
+}
+.links img {
+    margin-right: 12px;
+}
+.container-fluid{
+    padding-top: 20px;
+    background-color:aqua;
+    overflow: hidden;
+}
+.healthcare{
+
+    background-color: aqua
+ 
+}
+.deck-2{
+    width: 20%;
+
+}
+.stat{
+    color:rgb(0, 179, 155)!important;
+}
+.stat-cards{
+  
+    text-align: center;
+
+}
+.colone1 div{
+    margin-bottom: 5%;
+    margin-top:5%;
+}
+.colone2 div{
+    margin-bottom: 5%;
+    margin-left:3%;
+}
+.description-tlt{
+    color: rgb(0, 179, 155)
+}
+.descriptiont-img{
+    position: absolute;
+    width: 70%;
+    margin-left: -40%
+}
+.deck {
+    width:27% ;
+}
+.deck-1 {
+    width:14% ;
+}
+.deck-2 {
+    width:14% ;
+}
+.deck-3 {
+    width:24% ;
+}
+.txt-change{
+    margin-top: 5%;
+    color: rgb(0, 179, 155);
+}
+.change p{
+    margin-top: 30px;
+}
+#OPENING{
+    border-radius: 5px;
+    background-color: #3d83df;
+    font-size: 14px;
+    color: #ffffff;
+    padding: 8px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.fly  {
+    color: gray !important;
+    font-family: Arial, Helvetica, sans-serif;
+    
+
+}
+.search{
+    display: flex;
+    justify-content: space-between;
+}
+.open:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+.definition{
+    margin-bottom: 100px
+}
+
+.card-deck{
+    margin-bottom: 20px;
+}
+.baspage{
+    margin-top: 100px;
+    color: gray
+}
+.cookies{
+    color: gray;
+}
+.border-top{
+    padding-top: 20px
+}
